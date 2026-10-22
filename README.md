@@ -1,6 +1,6 @@
 # Qafila gross margin
 
-Submitted by: **Muaid Alshahrri** — academy: **@SDAIAAcademy · SDAIA Academy (Sidai Academy)**
+Submitted by: **Moayad Alshehri** — academy: **@SDAIAAcademy · SDAIA Academy (Sidai Academy)**
 
 Qafila's sales database records revenue, while supplier costs arrive in messy
 weekly CSV files. This project combines both sources into a weekly gross margin

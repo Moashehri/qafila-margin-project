@@ -1,6 +1,6 @@
 # Sources
 
-This repository is Muaid Alshahrri's adaptation of the Qafila gross margin project
+This repository is Moayad Alshehri's adaptation of the Qafila gross margin project
 from **SDAIA Academy (Sidai Academy)**.
 
 The assignment, synthetic data generator, dependency environment, and contract
