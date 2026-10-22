@@ -1,0 +1,115 @@
+{
+  "verified_at_utc": "2026-10-22T16:28:04.317124+00:00",
+  "datasets": [
+    {
+      "seed": 2026,
+      "dbt_tests_passed": 26,
+      "independent_reference": "pass before and after correction",
+      "idempotent": "pass before and after correction",
+      "time_travel": "pass for all three tables",
+      "tables": {
+        "silver.product_cost_history": {
+          "rows_before": 633,
+          "rows_after": 637,
+          "snapshots_before": [
+            6341359228576896137
+          ],
+          "snapshots_after": [
+            6341359228576896137,
+            4260293163239531450
+          ]
+        },
+        "gold.weekly_margin": {
+          "rows_before": 165,
+          "rows_after": 165,
+          "snapshots_before": [
+            3522326173157231023
+          ],
+          "snapshots_after": [
+            3522326173157231023,
+            3358243187037216978
+          ]
+        },
+        "quality.price_quarantine": {
+          "rows_before": 7,
+          "rows_after": 7,
+          "snapshots_before": [
+            5456419107847585778
+          ],
+          "snapshots_after": [
+            5456419107847585778
+          ]
+        }
+      },
+      "margin_before": {
+        "revenue_sar": 3504002.19,
+        "cost_sar": 1654199.98,
+        "margin_sar": 801016.88,
+        "lines": 82404,
+        "uncosted_lines": 20626
+      },
+      "margin_after": {
+        "revenue_sar": 3504002.19,
+        "cost_sar": 1651701.06,
+        "margin_sar": 803515.8,
+        "lines": 82404,
+        "uncosted_lines": 20626
+      }
+    },
+    {
+      "seed": 11,
+      "dbt_tests_passed": 26,
+      "independent_reference": "pass before and after correction",
+      "idempotent": "pass before and after correction",
+      "time_travel": "pass for all three tables",
+      "tables": {
+        "silver.product_cost_history": {
+          "rows_before": 632,
+          "rows_after": 636,
+          "snapshots_before": [
+            5897267067358184676
+          ],
+          "snapshots_after": [
+            5897267067358184676,
+            8835321973281386666
+          ]
+        },
+        "gold.weekly_margin": {
+          "rows_before": 165,
+          "rows_after": 165,
+          "snapshots_before": [
+            5156304378050982964
+          ],
+          "snapshots_after": [
+            5156304378050982964,
+            34580456163480224
+          ]
+        },
+        "quality.price_quarantine": {
+          "rows_before": 7,
+          "rows_after": 7,
+          "snapshots_before": [
+            5608408447806503129
+          ],
+          "snapshots_after": [
+            5608408447806503129
+          ]
+        }
+      },
+      "margin_before": {
+        "revenue_sar": 3332299.11,
+        "cost_sar": 1673016.8,
+        "margin_sar": 748231.25,
+        "lines": 83195,
+        "uncosted_lines": 18175
+      },
+      "margin_after": {
+        "revenue_sar": 3332299.11,
+        "cost_sar": 1672533.06,
+        "margin_sar": 748714.99,
+        "lines": 83195,
+        "uncosted_lines": 18175
+      }
+    }
+  ]
+}
